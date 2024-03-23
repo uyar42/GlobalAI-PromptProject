@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Navbar</title>
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Parallax Scrolling Styles */
+      .parallax-bg {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <img src="fr.png" alt="Logo" class="h-12 w-auto" />
+          </div>
+          <!-- Navbar Toggler for Mobile -->
+          <div class="md:hidden">
+            <button id="navbar-toggle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
+          <!-- Navbar Links -->
+          <div class="hidden md:flex items-center space-x-4">
+            <a href="#home" class="font-bold text-gray-800 hover:text-gray-600"
+              >Home</a
+            >
+            <a href="#story" class="font-bold text-gray-800 hover:text-gray-600"
+              >Story</a
+            >
+            <a href="#cars" class="font-bold text-gray-800 hover:text-gray-600"
+              >Cars in Future</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu (Hidden by Default) -->
+      <div class="md:hidden hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a href="#home" class="block text-gray-800 hover:text-gray-600"
+            >Home</a
+          >
+          <a href="#story" class="block text-gray-800 hover:text-gray-600"
+            >Story</a
+          >
+          <a href="#cars" class="block text-gray-800 hover:text-gray-600"
+            >Cars in Future</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="parallax-bg bg-slate-100 flex justify-center items-center"
+    >
+      <!-- Image Container -->
+      <div class="image-container">
+        <img src="enzo.jpg" alt="Image" class="h-80 w-80 rounded-full" />
+        <p class="text-center italic mt-4">
+          "Lorem ipsum dolor sit amet - Exxo Ferrari"
+        </p>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section
+      id="story"
+      class="parallax-bg bg-red-800 flex flex-col justify-center items-center text-white"
+    >
+      <!-- Story Header -->
+      <h2 class="text-4xl mt-10">Story</h2>
+      <!-- Story Content -->
+      <div class="max-w-3xl mx-auto mt-10 text-center italic">
+        <article>
+          "Kaynakların son damlasına kadar kullanıldığı o günlerde, Ferrari’nin
+          atölyeleri sessiz ve kararlı bir hücre gibi çalışıyordu. FS modeli
+          için gerekli titanyumun yerini alacak bir malzeme bulmak, adeta modern
+          çağın simyasıydı. FX-G50’nin motorunu, artık ulaşılamaz olan nadir
+          toprak elementleri olmadan nasıl geliştireceğimizi düşünmek gecelerimi
+          uykusuz bırakıyordu. Ve FX-M’in aerodinamik mükemmelliğini, artık
+          sadece dijital simülasyonlarda görebileceğimiz malzemelerle nasıl
+          sağlayacağımız, bilinmezliğin ötesinde bir soruydu. Her deneme, bir
+          öncekinden daha fazla yenilik ve yaratıcılık gerektiriyordu. FS için,
+          biyolojik olarak üretilmiş kompozit malzemeleri test ettik. FX-G50’de,
+          güneş enerjisiyle çalışan bir motor konsepti üzerinde çalıştık ki bu,
+          yarış pistlerinde devrim yaratacak bir fikirdi. FX-M ise, tamamen geri
+          dönüştürülebilir malzemelerden üretilmiş ilk süper spor otomobil olma
+          yolunda ilerliyordu. Bu süreçte, her bir başarısızlık bizi daha da
+          ileriye taşıdı. FS’nin ilk prototipi, test sürüşünde alev aldığında,
+          yangına dayanıklı yeni bir malzeme keşfettik. FX-G50’nin motoru ilk
+          çalıştırıldığında patladığında, daha güvenli bir enerji depolama
+          çözümü bulduk. Ve FX-M’in rüzgar tüneli testleri sırasında,
+          aerodinamik yapısının kusursuzluğunu kanıtladık. Sonunda, bu üç model,
+          sadece Ferrari’nin değil, otomobil endüstrisinin de geleceğini
+          şekillendiren yeniliklerle doluydu. Doğal kaynakların tükenmesi, bizi
+          sınırlarımızı zorlamaya ve imkansızı başarmaya itti. Ve bu süreçte,
+          sadece makineleri değil, kendimizi de yeniden icat ettik."
+        </article>
+      </div>
+    </section>
+
+    <!-- Cars in Future Section -->
+    <section
+      id="cars"
+      class="parallax-bg bg-black flex flex-col justify-center items-center text-white"
+    >
+      <!-- Header -->
+      <h2 class="text-4xl font-bold mb-8">Cars in Future</h2>
+      <!-- Card Container -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"
+      >
+        <!-- Card 1 -->
+        <div class="card relative overflow-hidden">
+          <img
+            src="car1.jpg"
+            alt="Car 1"
+            class="w-full h-auto transform scale-100 transition-all duration-300 hover:opacity-50 hover:scale-105"
+          />
+          <div
+            class="overlay absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white font-bold text-center">Model FS</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card relative overflow-hidden">
+          <img
+            src="car2.jpg"
+            alt="Car 2"
+            class="w-full h-auto transform scale-100 transition-all duration-300 hover:opacity-50 hover:scale-105"
+          />
+          <div
+            class="overlay absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white font-bold text-center">Model FX-G50</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card relative overflow-hidden">
+          <img
+            src="car3.jpg"
+            alt="Car 3"
+            class="w-full h-auto transform scale-100 transition-all duration-300 hover:opacity-50 hover:scale-105"
+          />
+          <div
+            class="overlay absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300"
+          >
+            <p class="text-white font-bold text-center">Model FX-M</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-white text-center py-4">
+      <p class="text-gray-600 text-sm">&copy; 2024 MAU. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Navbar Toggle -->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+      document
+        .getElementById("navbar-toggle")
+        .addEventListener("click", function () {
+          var mobileMenu = document.getElementById("mobile-menu");
+          mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>

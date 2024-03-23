@@ -1,0 +1,54 @@
+Promptlar
+
+---Kaynak kodları(OpenAI Chat GPT-3.5)---
+
+Merhaba modern bir websitesi oluşturacağım . Öncelikli yapman gereken responsive(mobil uyumlu ) olması ve semantik etiketleri kullanmanı istiyorum (seo duyarlı) . 
+Söylediğim isteklere göre dediklerimi uygun bir şekilde yapmanı bekliyorum . 
+Aşama aşama gideceğiz . Anladıysan anlaşıldı de ve direktiflerimi dinle
+Anlaşıldı mı ?
+
+Öncelikle yapacağımız iş tailwind css ile modern bir navbar oluşturmalısın. Navlar Home , Story ,ve Cars in Future olacaktır . Navbar, responsive mobil uyumlu olmalı , daha küçük ekranlarda daha farklı davranmalı..
+Navbar bg-white olmalı ve nav textleri bold olmalı.
+
+
+span yaptığın logo kısmına küçük bir img yerleştireceğim w ve h değerleri sığmalı navbarın içine ardından 
+Parallax scrolling yapmanı istiyorum . Hangi nava tıklarsak oraya route olmalı . 
+Home section rengi bg-slate-100 , 2 bg-red-800 , 3. bg-black olmalı . 
+
+Home section bir image gelecektir ekran 4 parça ise img ile bir header yan yana olacak şekilde sectionun ortasında 4 parçalık ekranın 4 te 3 ünü kaplayarak yer almalıdır .
+
+Resim yanlış oldu , ekranın değil sectionun ortasında yanında headera yer kalacak şekilde yerleştirilmeli ve italic bir biçimde lorem ipsum dolor sit amet . -Exxo Ferrari yazabailir misin resmin yanına 
+
+imgyi rounded edip yazılacak sözü ortalar mısın ve parallax scroll effecti smooth olarak düzenlemeni istiyorum
+
+logo boyutunu h-12 . home section img boyutunu h-80 w-80 ayarlamanı istiyorum . Ardından Story section orta yukarı kısmına Story yazmanı istiyorum 
+
+
+şimdi Story başlığı content sectionun orta üst kısmında olucak .Altına italic bir biçimde sectionun ortasında bir hikaye yazacağım bunun için yer açabilir misin
+
+Şimdi ise 3 tane card bileşeni Cars in Future sectionuna yerleştirmeni istiyorum bu cardlar hover olduğunda model ismi yazacak ve opacity leri .5 olacaktır. Section içerisinde  yanlardan ve yukarılardan ortalanmış olmalıdır .  En altta ise navbar ile aynı renklerde footer yapılmalıdır . Bg white ve copyright işareti olan bir footer, footer içerisinde text black olmalıdır
+
+
+İstersen parça parça yazabilirsin kodları eksik yazmamak için 
+
+Şimdi ise 3 tane card bileşeni Cars in Future sectionuna yerleştirmeni istiyorum bu cardlar hover olduğunda img opacityleri 0.5 olacak ve img boyutu scale olmalıdır . Section içerisinde  yanlardan ve yukarılardan ortalanmış olmalıdır , Ardından hover olduğunda image üzerinde beyaz text ile araç modeli yazmalıdır .   Section en üst kısmına da Cars in Future beyaz text ile header yazmanı istiyorum
+
+
+Tüm etiketleri seo uyumlu olarak düzenleye bilir misin (<body> etiketi içerisindeki tüm kodlar ı yapıştırıp sordum)
+
+navbar ile aynı renkte  copyright işareti ile bir footer tasarlayabilir misin
+
+Hikaye (BING AI)---
+
+Bana ferrarinin, dünyadaki doğal kaynakların bittikten sonra üretilen arabaların hangi zor(deney,hammadde eksikliği , tehlike) denemelerden sonra  özel olarak ürettikleri 3 yeni model FS, FX-G50 ,FX-M modeli üretirken yaşadıkları zorluklarını anlatan mühendisin anıları kitabından alıntılamış gibi 15-20 satırlık şekilde yazar mısın
+
+--Fotoğraflar için (BING AI Designer)---
+
+Ferrari car in the future, cybertruck style
+
+bana kıyamet sonrası otomotiv mühendisi çizebilir misin ?  Çılgın biraz da yorgun
+
+
+
+
+
